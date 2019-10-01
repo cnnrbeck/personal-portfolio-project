@@ -20,9 +20,20 @@ body{
   }
   
   /* Size of most phones? */
-  @media (max-width: 479px) {
+  @media (max-width: 768px) {
     .nav {
       justify-content: center;
+    }
+
+    .projects {
+        height: 1100px;
+        text-align: center;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
   }
   
@@ -113,11 +124,11 @@ body{
   figcaption{
     text-align: center;
     background-color: #304d6d;
-    position: relative;
-    bottom: 6px;
+    bottom: 5px;
     padding: 10px;
     height: 2.2em;
   }
+  
   
   
   .contact-section {
