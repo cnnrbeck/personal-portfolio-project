@@ -21,6 +21,10 @@ body{
   
   /* Size of most phones? */
   @media (max-width: 768px) {
+    .welcome-section {
+        text-align: center;
+    }
+    
     .nav {
       justify-content: center;
     }
@@ -53,6 +57,13 @@ body{
     list-style: none;
   }
   
+  #Work {
+      animation-delay: .1s;
+  }
+
+  #Contact {  
+    animation-delay: .2s;
+  }
   
   
   .nav-list a{
@@ -91,6 +102,7 @@ body{
     font-style: italic;
     margin: 0px;
     color: #304d6d;
+    animation-delay: .2s;
   }
   
   
@@ -103,7 +115,6 @@ body{
   }
   
   .projects h2{
-    text-decoration: underline;
     color: white;
     margin: 0px;
     display: flex;
