@@ -35,6 +35,14 @@ body{
         text-align: center;
     }
 
+    .github-profile {
+      padding-top: 5px;
+    }
+    
+    figcaption {
+      height: 25px;
+    }
+
     .grid{
         display: flex;
         flex-direction: column;
