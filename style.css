@@ -13,8 +13,8 @@ body{
     justify-content: flex-end;
     position: fixed;
     width: 100%;
-    background-color: #304d6d;
-    color: white;
+    background-color: #223d57;
+    color: #efe6e8;
     top: 0;
     left: 0;
   }
@@ -43,11 +43,11 @@ body{
   
   
   a{
-    color:white;
+    color:#efe6e8;
   }
   
   a:visited{
-    color: white;
+    color: #efe6e8;
   }
   
   
@@ -79,15 +79,14 @@ body{
   }
   
   .nav-list a:hover {
-    background: #a7cced;
-    color: #304d6d;
+    background: #31658e;
   }
   
   /* Welcome Section */
   
   .welcome-section
   {
-    background-color: #63adf2;  
+    background-color: #6a314b;  
     height: 100vh;
     width: 100%;
     margin: 0px;
@@ -100,14 +99,14 @@ body{
   .welcome-section h1 {
     font-size: 2em;
     margin: 0px;
-    color: #253b54;
+    color: #efe6e8;
     animation-duration: 1.5s;
   }
   
   .welcome-section p {
     font-style: italic;
     margin: 0px;
-    color: #304d6d;
+    color: #efe6e8;
     animation-duration: 1.5s;
     animation-delay: .2s;
   }
@@ -116,13 +115,13 @@ body{
   /* Project Section */
   
   .projects{
-    background-color: #6f808a;
+    background-color: #31658e;
     margin: 0px;
     padding-bottom: 5em;
   }
   
   .projects h2{
-    color: white;
+    color: #efe6e8;
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -137,11 +136,13 @@ body{
   
   figure{
     max-width: 350px;
+    background-color: #223d57;
+    border: 5px solid #223d57;
   }
   
   figcaption{
     text-align: center;
-    background-color: #304d6d;
+    background-color: #223d57;
     bottom: 5px;
     padding: 10px;
     height: 2.2em;
@@ -150,8 +151,8 @@ body{
   
   
   .contact-section {
-    background-color: #304d6d;
-    color: white;
+    background-color: #223d57;
+    color: #efe6e8;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -163,9 +164,9 @@ body{
   }
   
   footer {
-    border-top: 5px solid #6f808a;
-    background-color: #304d6d;
-    color: white;
+    border-top: 5px solid #31658e;
+    background-color: #223d57;
+    color: #efe6e8;
     display: flex;
     justify-content: center;
   }
