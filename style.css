@@ -17,6 +17,7 @@ body{
     color: #efe6e8;
     top: 0;
     left: 0;
+    z-index: 1;
   }
   
   /* Size of most phones? */
@@ -60,6 +61,8 @@ body{
   #About {
       animation-duration: 1.2s;
   }
+
+
   
   #Work {
       animation-delay: .1s;
@@ -143,11 +146,13 @@ body{
   figcaption{
     text-align: center;
     background-color: #223d57;
-    bottom: 5px;
+    bottom: 4px;
     padding: 10px;
-    height: 2.2em;
   }
   
+  #profile-link figcaption {
+    padding-top: 20px;
+  }
   
   
   .contact-section {
@@ -159,10 +164,11 @@ body{
     
   }
   
-  .contact-section p{
+  .contact-section p {
     font-size: 1.1rem;
   }
-  
+
+
   footer {
     border-top: 5px solid #31658e;
     background-color: #223d57;
