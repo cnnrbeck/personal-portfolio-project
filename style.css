@@ -56,13 +56,19 @@ body{
     margin: 0 2rem 0 0;
     list-style: none;
   }
+
+  #About {
+      animation-duration: 1.2s;
+  }
   
   #Work {
       animation-delay: .1s;
+      animation-duration: 1.2s;
   }
 
   #Contact {  
     animation-delay: .2s;
+    animation-duration: 1.2s;
   }
   
   
@@ -81,8 +87,7 @@ body{
   
   .welcome-section
   {
-    background-color: #63adf2;
-    
+    background-color: #63adf2;  
     height: 100vh;
     width: 100%;
     margin: 0px;
@@ -96,12 +101,14 @@ body{
     font-size: 2em;
     margin: 0px;
     color: #253b54;
+    animation-duration: 1.5s;
   }
   
   .welcome-section p {
     font-style: italic;
     margin: 0px;
     color: #304d6d;
+    animation-duration: 1.5s;
     animation-delay: .2s;
   }
   
