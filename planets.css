@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    margin:0px;
+    display: flex;
+    align-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-gap: 175px;
+}
+
+div {
+    width: 175px;
+    text-align: center;
+    background-color:white;
+}
+
+img {
+    width: 175px;
+}
