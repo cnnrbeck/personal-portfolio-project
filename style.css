@@ -150,6 +150,10 @@ body{
     background-color: #223d57;
     border: 5px solid #223d57;
   }
+
+  #planet {
+    width: 350px;
+  }
   
   figcaption{
     text-align: center;
