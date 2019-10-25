@@ -4,7 +4,7 @@ body{
     margin: 0px;
   }
   
-  
+
   /* Navigation */
   
   .nav{
@@ -152,6 +152,11 @@ body{
 
   #planet {
     width: 350px;
+  }
+
+  #species {
+    height: 350px;
+    width: 100%;
   }
   
   figcaption{
