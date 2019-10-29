@@ -95,6 +95,7 @@ mammalButton.addEventListener('click', () => {
         i++
     })
     allDivs[0].setAttribute("style","display: none;")
+    allDivs[23].setAttribute("style","display: none;")
     allDivs[25].setAttribute("style","display: none;")
     allDivs[34].setAttribute("style","display: none;")
     allDivs[36].setAttribute("style","display: none;")
@@ -138,6 +139,7 @@ nonMammalButton.addEventListener('click', () => {
         i++
     })
     allDivs[0].setAttribute("style","display: visible;")
+    allDivs[23].setAttribute("style","display: visible;")
     allDivs[25].setAttribute("style","display: visible;")
     allDivs[34].setAttribute("style","display: visible;")
     allDivs[36].setAttribute("style","display: visible;")
