@@ -30,7 +30,7 @@ body{
     }
 
     .projects {
-        height: 1100px;
+        height: 2100px;
         text-align: center;
     }
 
@@ -156,7 +156,7 @@ body{
 
   #species {
     height: 350px;
-    width: 100%;
+    width: 350px;
   }
   
   figcaption{
