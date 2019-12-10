@@ -140,6 +140,7 @@ body{
   
   .grid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 3rem;
   }
@@ -151,6 +152,11 @@ body{
   }
 
   #planet {
+    width: 350px;
+  }
+
+  #bbcard {  
+    height: 350px;
     width: 350px;
   }
 
