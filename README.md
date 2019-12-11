@@ -1,6 +1,6 @@
 # Final Assignment DGM 1600
-##Provides examples of Basic Javascript code including:
-    [###Proper use of variables with proper scope:](/planet.js) **planet.js line 18**                     
+## Provides examples of Basic Javascript code including:
+    ### [Proper use of variables with proper scope:](/planets.js) **planet.js line 18**                     
    ###Good use of conditional logic and value comparison: **species.js line 52**                  
     ###Proper use of String manipulation: **species.js line 29**                                   
     ###Good use of Arrays: **species.js line 6-36**                                                
